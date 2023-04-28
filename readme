@@ -1,0 +1,28 @@
+Requirements
+● Design and implement appropriate RESTful APIs for user registration (first name, last
+name, username, email, and password), authentication and user details using
+Node.js with Express.js. The email and username must be unique.
+● Implement server-side validation (Joi) to ensure that incoming data is properly
+validated before processing.
+● Implement secure password hashing and storage using a proven hashing algorithm,
+such as bcrypt, to ensure the security of user passwords.
+● Implement token-based authentication, such as JSON Web Tokens (JWT), to
+securely manage user sessions and authentication status.
+● Use an ORM (e.g., Sequelize) to interact with your database from your Node.js
+application
+● Implement appropriate error handling to provide meaningful error responses to
+frontend requests in case of invalid input, authentication failures, or other errors.
+● Use best practices for secure coding, such as server-side input validation,
+parameterized queries (to prevent SQL injection), and protection against cross-site
+scripting (XSS) and cross-site request forgery (CSRF) attacks.
+● Document the steps on how to set up the development environment and deploy the
+application for our testing and review.
+
+plan :-)
+
+- intialize and spin the server
+- connect database
+- define user schema
+- define access token schema
+- create user and token services
+- use joi for validations
